@@ -1,0 +1,35 @@
+federates:
+[
+  {
+    federateId: 0
+    moduleName: CameraFederate
+    instanceName: CameraFederate_0
+    hostName: zex
+    gpuId: -1
+    cameraType: humanView
+    sensors: 
+    [
+      {
+        index: 0
+        name: HumanView_1
+        cameraType: humanView
+      }
+    ]
+  }
+  {
+    federateId: 1
+    moduleName: CameraFederate
+    instanceName: CameraFederate_1
+    hostName: zex
+    gpuId: -1
+    cameraType: humanView
+    sensors: 
+    [
+      {
+        index: 1
+        name: HumanView_2
+        cameraType: humanView
+      }
+    ]
+  }
+]
