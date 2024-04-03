@@ -54,12 +54,12 @@ LQR_R = 0.5;
 % LQR_R = 100;
 
 %%%%纵向双PID参数
-KP_PID_distance=0.1;
-KI_PID_distance=0.01;
-KD_PID_distance=0.05;
-KP_PID_speed=0.2;
-KI_PID_speed=0.02;
-KD_PID_speed=0.01;
+KP_PID_distance=0.05;
+KI_PID_distance=0.0;
+KD_PID_distance=0.1;
+KP_PID_speed=0.5;
+KI_PID_speed=0;
+KD_PID_speed=0;
 %%%%%LQR_OFFLINE
 k=zeros(5000,4);
 vx_break_point=zeros(1,5000);

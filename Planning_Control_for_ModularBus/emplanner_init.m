@@ -41,23 +41,23 @@ lb= 1.1979-0.5989;
 % la = 1.265;
 % lb = 2.947-1.265;
 %%%%%%%横向LQR参数
-% LQR_Q1 = 25;
-% LQR_Q2 = 3;
-% LQR_Q3 = 10;
-% LQR_Q4 = 4;
-% LQR_R = 15;
-
-LQR_Q1 = 1500;
-LQR_Q2 = 1;
+LQR_Q1 = 100;
+LQR_Q2 = 100;
 LQR_Q3 = 100;
-LQR_Q4 = 1;
-LQR_R = 100;
+LQR_Q4 = 100;
+LQR_R = 0.5;
+
+% LQR_Q1 = 1500;
+% LQR_Q2 = 1;
+% LQR_Q3 = 100;
+% LQR_Q4 = 1;
+% LQR_R = 100;
 
 %%%%纵向双PID参数
-KP_PID_distance=0.5;
+KP_PID_distance=0.05;
 KI_PID_distance=0.0;
-KD_PID_distance=0.0;
-KP_PID_speed=1.8;
+KD_PID_distance=0.1;
+KP_PID_speed=0.5;
 KI_PID_speed=0;
 KD_PID_speed=0;
 %%%%%LQR_OFFLINE
